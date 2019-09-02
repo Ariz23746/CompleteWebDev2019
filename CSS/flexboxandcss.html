@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flexbox</title>
+	<style type="text/css">
+		body {
+			margin:0 10px;
+		}
+		img {
+			width: 450px;
+			height: 300px;
+			transition: all 1s;
+			margin:0 2px;
+		}
+		img:hover {
+			transform: scale(1.1);
+		}
+
+		.container {
+			display:flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+		}
+		
+		h1 {
+			font-family: fantasy;
+			font-weight: 3em;
+			border-bottom:2px solid pink;
+			border-right:2px solid pink;
+			width:300px;
+			text-align: center;
+			box-shadow: 4px 4px 4px #888888;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Wild Family</h1>
+	<div class="container">
+
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg">
+
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg">
+
+		<img src="https://images.unsplash.com/reserve/wrev1ljvQ6KlfyljCQG0_lion.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg">
+
+		<img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+	</div>
+
+</body>
+</html>
